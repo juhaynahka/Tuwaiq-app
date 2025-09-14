@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Fondo de desenfoque abstracto de vector gris claro_.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Fondo de desenfoque abstracto de vector gris claro_ 1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Fondo de desenfoque abstracto de vector gris claro_ 2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

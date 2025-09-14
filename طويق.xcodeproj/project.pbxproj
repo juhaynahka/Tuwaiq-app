@@ -6,13 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD00E5642E336750001AEC4C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DD00E5632E336750001AEC4C /* Kingfisher */; };
+		DD2B36812E2C572D008AFC8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2B36802E2C572D008AFC8D /* GoogleService-Info.plist */; };
+		DD7934962E456ABC003F1F1A /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DD7934952E456ABC003F1F1A /* FirebaseFirestoreCombine-Community */; };
+		DD904C292DD9D047002A0C38 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C282DD9D047002A0C38 /* FirebaseAnalytics */; };
+		DD904C2B2DD9D047002A0C38 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C2A2DD9D047002A0C38 /* FirebaseAuth */; };
+		DD904C2D2DD9D047002A0C38 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C2C2DD9D047002A0C38 /* FirebaseCrashlytics */; };
+		DD904C2F2DD9D047002A0C38 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C2E2DD9D047002A0C38 /* FirebaseDatabase */; };
+		DD904C312DD9D047002A0C38 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C302DD9D047002A0C38 /* FirebaseFirestore */; };
+		DD904C332DD9D047002A0C38 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C322DD9D047002A0C38 /* FirebaseMessaging */; };
+		DD904C352DD9D047002A0C38 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DD904C342DD9D047002A0C38 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		DD904C162DD9CE06002A0C38 /* TUWAIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUWAIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2B36802E2C572D008AFC8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD904C162DD9CE06002A0C38 /* طويق.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "طويق.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD4DB5B72DDCAF22002B4312 /* Exceptions for "TUWAIQ" folder in "طويق" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD904C152DD9CE06002A0C38 /* طويق */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DD904C182DD9CE06002A0C38 /* TUWAIQ */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD4DB5B72DDCAF22002B4312 /* Exceptions for "TUWAIQ" folder in "طويق" target */,
+			);
 			path = TUWAIQ;
 			sourceTree = "<group>";
 		};
@@ -23,16 +50,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD904C332DD9D047002A0C38 /* FirebaseMessaging in Frameworks */,
+				DD904C2D2DD9D047002A0C38 /* FirebaseCrashlytics in Frameworks */,
+				DD904C292DD9D047002A0C38 /* FirebaseAnalytics in Frameworks */,
+				DD7934962E456ABC003F1F1A /* FirebaseFirestoreCombine-Community in Frameworks */,
+				DD904C2F2DD9D047002A0C38 /* FirebaseDatabase in Frameworks */,
+				DD00E5642E336750001AEC4C /* Kingfisher in Frameworks */,
+				DD904C352DD9D047002A0C38 /* FirebaseStorage in Frameworks */,
+				DD904C312DD9D047002A0C38 /* FirebaseFirestore in Frameworks */,
+				DD904C2B2DD9D047002A0C38 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD00E5612E336706001AEC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD904C0D2DD9CE06002A0C38 = {
 			isa = PBXGroup;
 			children = (
+				DD2B36802E2C572D008AFC8D /* GoogleService-Info.plist */,
 				DD904C182DD9CE06002A0C38 /* TUWAIQ */,
+				DD00E5612E336706001AEC4C /* Frameworks */,
 				DD904C172DD9CE06002A0C38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +85,7 @@
 		DD904C172DD9CE06002A0C38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD904C162DD9CE06002A0C38 /* TUWAIQ.app */,
+				DD904C162DD9CE06002A0C38 /* طويق.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD904C152DD9CE06002A0C38 /* TUWAIQ */ = {
+		DD904C152DD9CE06002A0C38 /* طويق */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD904C242DD9CE08002A0C38 /* Build configuration list for PBXNativeTarget "TUWAIQ" */;
+			buildConfigurationList = DD904C242DD9CE08002A0C38 /* Build configuration list for PBXNativeTarget "طويق" */;
 			buildPhases = (
 				DD904C122DD9CE06002A0C38 /* Sources */,
 				DD904C132DD9CE06002A0C38 /* Frameworks */,
@@ -63,11 +108,20 @@
 			fileSystemSynchronizedGroups = (
 				DD904C182DD9CE06002A0C38 /* TUWAIQ */,
 			);
-			name = TUWAIQ;
+			name = "طويق";
 			packageProductDependencies = (
+				DD904C282DD9D047002A0C38 /* FirebaseAnalytics */,
+				DD904C2A2DD9D047002A0C38 /* FirebaseAuth */,
+				DD904C2C2DD9D047002A0C38 /* FirebaseCrashlytics */,
+				DD904C2E2DD9D047002A0C38 /* FirebaseDatabase */,
+				DD904C302DD9D047002A0C38 /* FirebaseFirestore */,
+				DD904C322DD9D047002A0C38 /* FirebaseMessaging */,
+				DD904C342DD9D047002A0C38 /* FirebaseStorage */,
+				DD00E5632E336750001AEC4C /* Kingfisher */,
+				DD7934952E456ABC003F1F1A /* FirebaseFirestoreCombine-Community */,
 			);
 			productName = TUWAIQ;
-			productReference = DD904C162DD9CE06002A0C38 /* TUWAIQ.app */;
+			productReference = DD904C162DD9CE06002A0C38 /* طويق.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD904C112DD9CE06002A0C38 /* Build configuration list for PBXProject "TUWAIQ" */;
+			buildConfigurationList = DD904C112DD9CE06002A0C38 /* Build configuration list for PBXProject "طويق" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +148,16 @@
 			);
 			mainGroup = DD904C0D2DD9CE06002A0C38;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DD00E5622E336750001AEC4C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DD904C172DD9CE06002A0C38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD904C152DD9CE06002A0C38 /* TUWAIQ */,
+				DD904C152DD9CE06002A0C38 /* طويق */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2B36812E2C572D008AFC8D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD904C112DD9CE06002A0C38 /* Build configuration list for PBXProject "TUWAIQ" */ = {
+		DD904C112DD9CE06002A0C38 /* Build configuration list for PBXProject "طويق" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD904C222DD9CE08002A0C38 /* Debug */,
@@ -314,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD904C242DD9CE08002A0C38 /* Build configuration list for PBXNativeTarget "TUWAIQ" */ = {
+		DD904C242DD9CE08002A0C38 /* Build configuration list for PBXNativeTarget "طويق" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD904C252DD9CE08002A0C38 /* Debug */,
@@ -324,6 +383,73 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD00E5622E336750001AEC4C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD00E5632E336750001AEC4C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD00E5622E336750001AEC4C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DD7934952E456ABC003F1F1A /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		DD904C282DD9D047002A0C38 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DD904C2A2DD9D047002A0C38 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD904C2C2DD9D047002A0C38 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		DD904C2E2DD9D047002A0C38 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DD904C302DD9D047002A0C38 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD904C322DD9D047002A0C38 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		DD904C342DD9D047002A0C38 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD904C272DD9D047002A0C38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD904C0E2DD9CE06002A0C38 /* Project object */;
 }
